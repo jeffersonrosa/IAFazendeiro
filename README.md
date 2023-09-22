@@ -50,4 +50,3 @@ O caminho completo é:
 ## Autor
 - **Nome**: Jefferson Rosa
 - **Github**: [jeffersonrosa](https://github.com/jeffersonrosa)
-- **Email**: jeffersonrosabr@gmail.com
