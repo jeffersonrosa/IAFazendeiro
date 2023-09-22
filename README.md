@@ -35,19 +35,17 @@ O algoritmo continua a expandir e explorar os estados até que encontre uma sequ
 O programa irá imprimir a sequência de movimentos que o fazendeiro deve fazer para cruzar o rio com sucesso sem violar as regras nesse formato:
 
 ### Saída Formatada
-<p>O caminho completo é:</p>
-<ol>
-    <li>Esquerda [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha, Cachorro, Milho] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [] Direita</li>
-    <li>Esquerda [Cachorro, Milho] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha] Direita</li>
-    <li>Esquerda [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Cachorro, Milho] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [Galinha] Direita</li>
-    <li>Esquerda [Milho] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha, Cachorro] Direita</li>
-    <li>Esquerda [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha, Milho] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [Cachorro] Direita</li>
-    <li>Esquerda [Galinha] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Cachorro, Milho] Direita</li>
-    <li>Esquerda [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [Cachorro, Milho] Direita</li>
-    <li>Esquerda [] - <span style="background-color: #4169E1; color: #FFFFFF;">Rio</span> - [<span style="background-color: #FFD700; color: #000000;">Fazendeiro</span>, Galinha, Cachorro, Milho] Direita</li>
-</ol>
-
-
+```
+O caminho completo é:
+1 - Esquerda [Fazendeiro, Galinha, Cachorro, Milho] - Rio - [] Direita
+2 - Esquerda [Cachorro, Milho] - Rio - [Fazendeiro, Galinha] Direita
+3 - Esquerda [Fazendeiro, Cachorro, Milho] - Rio - [Galinha] Direita
+4 - Esquerda [Milho] - Rio - [Fazendeiro, Galinha, Cachorro] Direita
+5 - Esquerda [Fazendeiro, Galinha, Milho] - Rio - [Cachorro] Direita
+6 - Esquerda [Galinha] - Rio - [Fazendeiro, Cachorro, Milho] Direita
+7 - Esquerda [Fazendeiro, Galinha] - Rio - [Cachorro, Milho] Direita
+8 - Esquerda [] - Rio - [Fazendeiro, Galinha, Cachorro, Milho] Direita
+```
 
 ## Autor
 - **Nome**: Jefferson Rosa
