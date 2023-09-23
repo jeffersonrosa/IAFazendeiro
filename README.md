@@ -48,5 +48,9 @@ O caminho completo é:
 ```
 
 ## Autor
-- **Nome**: Jefferson Rosa
-- **Github**: [jeffersonrosa](https://github.com/jeffersonrosa)
+
+Este projeto foi desenvolvido por [Jefferson Rosa](https://github.com/jeffersonrosa/).
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
